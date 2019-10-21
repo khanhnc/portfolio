@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/khanhweb/static/css/main.e589183f.chunk.css",
+    "main.js": "/khanhweb/static/js/main.9ce2ba08.chunk.js",
+    "main.js.map": "/khanhweb/static/js/main.9ce2ba08.chunk.js.map",
+    "runtime-main.js": "/khanhweb/static/js/runtime-main.b15bda21.js",
+    "runtime-main.js.map": "/khanhweb/static/js/runtime-main.b15bda21.js.map",
+    "static/js/2.bf22980a.chunk.js": "/khanhweb/static/js/2.bf22980a.chunk.js",
+    "static/js/2.bf22980a.chunk.js.map": "/khanhweb/static/js/2.bf22980a.chunk.js.map",
+    "index.html": "/khanhweb/index.html",
+    "precache-manifest.016bf93d9526962fabde553bfd24f726.js": "/khanhweb/precache-manifest.016bf93d9526962fabde553bfd24f726.js",
+    "service-worker.js": "/khanhweb/service-worker.js",
+    "static/css/main.e589183f.chunk.css.map": "/khanhweb/static/css/main.e589183f.chunk.css.map",
+    "static/media/linkin.jpg": "/khanhweb/static/media/linkin.34fb9f33.jpg",
+    "static/media/resume.pdf": "/khanhweb/static/media/resume.a21654dd.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b15bda21.js",
+    "static/js/2.bf22980a.chunk.js",
+    "static/css/main.e589183f.chunk.css",
+    "static/js/main.9ce2ba08.chunk.js"
+  ]
+}
