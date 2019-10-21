@@ -1,0 +1,176 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Event Calendar",
+      "description": "Event Calendar Dresden",
+      "technoligies": [
+        "HTML",
+        "CSS",
+        "JQuery",
+        "JSON",
+        "JS"
+      ],
+      "link": "https://wwwpub.zih.tu-dresden.de/~s9664175/emi/index.html",
+      "images": [
+        {
+          "img": "/projects/emi/logo.png"
+        },
+        {
+          "img": "/projects/emi/page1.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Festival Management",
+      "description": "First project, an event management web application for events for employees and customers.",
+      "technoligies": [
+        "Java",
+        "Spring MVC",
+        "Bootstrap",
+        "Thymeleaf"
+      ],
+      "images": [
+        {
+          "img": "/projects/festival/festival1.png"
+        },
+        {
+          "img": "/projects/festival/festival2.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mare-Print",
+      "description": "A back-office website for managing orders, accountancy, shops, and user accounts.",
+      "technoligies": [
+        "Angular 2+",
+        "Typescript",
+        "HTML/CSS",
+        "Material Design"
+      ],
+      "images": [
+        {
+          "img": "/projects/mpb/mp1.png"
+        },
+        {
+          "img": "/projects/mpb/mp2.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Stav Dresden",
+      "description": "A Back-office website for management students, employers, jobs and accounting for staff in a student job agency.",
+      "technoligies": [
+        "Angular 4",
+        "Typescript",
+        "HTML/CSS",
+        "Material Design"
+      ],
+      "images": [
+        {
+          "img": "/projects/stav/stav1.png"
+        },
+        {
+          "img": "/projects/stav/stav2.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Faeth",
+      "description": "Faeth",
+      "technoligies": [
+        "Angular 4",
+        "Typescript",
+        "HTML/CSS",
+        "Material Design"
+      ],
+      "images": [
+        {
+          "img": "/projects/faeth/faethlogo.png"
+        },
+        {
+          "img": "/projects/faeth/faeth1.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Globalfoundries  MDES",
+      "description": "A front-end website for planning and execution of industrial processes. Employee management.",
+      "technoligies": [
+        "Angular 6+",
+        "Typescript",
+        "HTML/CSS",
+        "Material Design"
+      ],
+      "images": [
+        {
+          "img": "/projects/mdes/mdeslogo.png"
+        },
+        {
+          "img": "/projects/mdes/mdes1.png"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Mareprint - frontend",
+      "description": "A front-end website to handle orders, payments.. for customers",
+      "technoligies": [
+        "Angular 6+",
+        "Typescript",
+        "Bootstrap 4"
+      ],
+      "link": "https://www.mare-print.de/",
+      "images": [
+        {
+          "img": "/projects/mpfront/mpflogo.png"
+        },
+        {
+          "img": "/projects/mpfront/mpf1.png"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Faeth-Bcapp",
+      "description": "An effective solution for the planning of preventive maintenance and management of industrial items.",
+      "technoligies": [
+        "Spring Boot",
+        "Typescript",
+        "Angular 6+",
+        "Material Design"
+      ],
+      "images": [
+        {
+          "img": "/projects/bcapp/bcapp1.png"
+        },
+        {
+          "img": "/projects/bcapp/bcapp1.png"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Personal website ",
+      "description": "Personal website ",
+      "technoligies": [
+        "React.js",
+        "Material UI Design"
+      ],
+      "link": "",
+      "images": [
+        {
+          "img": "/projects/personal/personal.png"
+        },
+        {
+          "img": "/projects/personal/personal.png"
+        }
+      ]
+    }
+  ]
+}
