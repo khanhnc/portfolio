@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/khanhweb/static/css/main.9da4de55.chunk.css",
-    "main.js": "/khanhweb/static/js/main.a4934f3a.chunk.js",
-    "main.js.map": "/khanhweb/static/js/main.a4934f3a.chunk.js.map",
+    "main.js": "/khanhweb/static/js/main.74a8b421.chunk.js",
+    "main.js.map": "/khanhweb/static/js/main.74a8b421.chunk.js.map",
     "runtime-main.js": "/khanhweb/static/js/runtime-main.b15bda21.js",
     "runtime-main.js.map": "/khanhweb/static/js/runtime-main.b15bda21.js.map",
     "static/js/2.a28ed074.chunk.js": "/khanhweb/static/js/2.a28ed074.chunk.js",
     "static/js/2.a28ed074.chunk.js.map": "/khanhweb/static/js/2.a28ed074.chunk.js.map",
     "index.html": "/khanhweb/index.html",
-    "precache-manifest.a801971ea9085e8d7bb1a72e65adbd9e.js": "/khanhweb/precache-manifest.a801971ea9085e8d7bb1a72e65adbd9e.js",
+    "precache-manifest.660f6b1a6e80d8afec1cc88d143e8ffc.js": "/khanhweb/precache-manifest.660f6b1a6e80d8afec1cc88d143e8ffc.js",
     "service-worker.js": "/khanhweb/service-worker.js",
     "static/css/main.9da4de55.chunk.css.map": "/khanhweb/static/css/main.9da4de55.chunk.css.map",
     "static/media/bcapp1.png": "/khanhweb/static/media/bcapp1.f63021ef.png",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.b15bda21.js",
     "static/js/2.a28ed074.chunk.js",
     "static/css/main.9da4de55.chunk.css",
-    "static/js/main.a4934f3a.chunk.js"
+    "static/js/main.74a8b421.chunk.js"
   ]
 }
