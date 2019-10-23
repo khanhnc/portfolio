@@ -14,10 +14,10 @@
       "link": "https://wwwpub.zih.tu-dresden.de/~s9664175/emi/index.html",
       "images": [
         {
-          "img": "/projects/emi/logo.png"
+          "img": "logo.png"
         },
         {
-          "img": "/projects/emi/page1.png"
+          "img": "page1.png"
         }
       ]
     },
@@ -33,10 +33,10 @@
       ],
       "images": [
         {
-          "img": "/projects/festival/festival1.png"
+          "img": "festival1.png"
         },
         {
-          "img": "/projects/festival/festival2.png"
+          "img": "festival2.png"
         }
       ]
     },
@@ -52,10 +52,10 @@
       ],
       "images": [
         {
-          "img": "/projects/mpb/mp1.png"
+          "img": "mp1.png"
         },
         {
-          "img": "/projects/mpb/mp2.png"
+          "img": "mp2.png"
         }
       ]
     },
@@ -71,10 +71,10 @@
       ],
       "images": [
         {
-          "img": "/projects/stav/stav1.png"
+          "img": "stav1.png"
         },
         {
-          "img": "/projects/stav/stav2.png"
+          "img": "stav2.png"
         }
       ]
     },
@@ -90,10 +90,10 @@
       ],
       "images": [
         {
-          "img": "/projects/faeth/faethlogo.png"
+          "img": "faethlogo.png"
         },
         {
-          "img": "/projects/faeth/faeth1.png"
+          "img": "faeth1.png"
         }
       ]
     },
@@ -109,10 +109,10 @@
       ],
       "images": [
         {
-          "img": "/projects/mdes/mdeslogo.png"
+          "img": "mdeslogo.png"
         },
         {
-          "img": "/projects/mdes/mdes1.png"
+          "img": "mdes1.png"
         }
       ]
     },
@@ -128,10 +128,10 @@
       "link": "https://www.mare-print.de/",
       "images": [
         {
-          "img": "/projects/mpfront/mpflogo.png"
+          "img": "mpflogo.png"
         },
         {
-          "img": "/projects/mpfront/mpf1.png"
+          "img": "mpf1.png"
         }
       ]
     },
@@ -147,10 +147,10 @@
       ],
       "images": [
         {
-          "img": "/projects/bcapp/bcapp1.png"
+          "img": "bcapp1.png"
         },
         {
-          "img": "/projects/bcapp/bcapp1.png"
+          "img": "bcapp1.png"
         }
       ]
     },
@@ -165,10 +165,10 @@
       "link": "",
       "images": [
         {
-          "img": "/projects/personal/personal.png"
+          "img": "personal.png"
         },
         {
-          "img": "/projects/personal/personal.png"
+          "img": "personal.png"
         }
       ]
     }

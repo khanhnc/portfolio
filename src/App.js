@@ -115,7 +115,7 @@ const App = (props) => {
 
     return (
         <React.Fragment>
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div className="landing-content">
                     <AppBar position="sticky">
                         <Toolbar className="header-color">

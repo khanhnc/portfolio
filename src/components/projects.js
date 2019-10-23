@@ -46,9 +46,9 @@ class Projects extends Component {
                     aria-labelledby="scroll-dialog-title">
                     <DialogTitle id="scroll-dialog-title">{this.state.job.title}</DialogTitle>
                     <DialogContent dividers={true}>
-                        <div><label><strong>Description: </strong>                            {this.state.job.description}
-                         </label></div>
-                           <div><label><strong> Technologies and framework: </strong></label>
+                        <div><label><strong>Description: </strong> {this.state.job.description}
+                        </label></div>
+                        <div><label><strong> Technologies and framework: </strong></label>
                             {this.state.job.title ? this.state.job.technoligies.map(tec => {
                                 return (
                                     <Chip color="primary" label={tec}/>
@@ -61,7 +61,7 @@ class Projects extends Component {
                                 <div style={{paddingTop: "1em"}}>
                                     <CardMedia
                                         component="img"
-                                        src={this.state.job.images[1].img}
+                                        src={require('../images/' + this.state.job.images[1].img)}
                                         title="logo"/></div> : null}
 
                         </div>
@@ -88,7 +88,7 @@ class Projects extends Component {
                                             component="img"
                                             alt="logo"
                                             height="80"
-                                            src={job.images[0].img}
+                                            src={require('../images/' + job.images[0].img)}
                                             title="logo"/>
                                         <CardContent>
                                             <Typography variant="body2" color="textSecondary" component="p">
