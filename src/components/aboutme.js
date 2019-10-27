@@ -24,7 +24,7 @@ class About extends Component {
                     <h3>About Me</h3>
                 </div>
                 <Grid container alignItems="stretch" component={Card} spacing={3}>
-                    <CardContent xs={4} style={{backgroundColor:'#EEEEEE'}}>
+                    <CardContent xs={4} style={{backgroundColor: '#EEEEEE'}}>
                         <div style={{paddingBottom: '1em'}}>
                             <Avatar alt="me" src={require("../images/linkin.jpg")}
                                     style={{borderRadius: '0%', margin: "auto", width: 250, height: 250}}/>
@@ -33,10 +33,16 @@ class About extends Component {
 
                         <div style={{textAlign: 'center', paddingTop: '1em'}}>
                             <Typography variant="h4" component="h3"><strong>Khanh Nguyen</strong></Typography>
-                            <span>khanhnc46@gmail.com</span>
+                            <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"
+                               style={{textDecoration: 'none'}}
+                            >khanhnc46@gmail.com</a>
                             <div className="banner-link-about">
                                 <a href="https://www.linkedin.com/in/khanh-nguyen-42376b151/" title="Linkin">
                                     <i className="fa fa-linkedin customIconXs"></i>
+                                </a>
+
+                                <a href="https://github.com/khanhnc" title="git">
+                                    <i className="fa fa-github customIconXs"></i>
                                 </a>
 
                                 <a href="https://www.facebook.com/khanhnc46">
@@ -46,7 +52,7 @@ class About extends Component {
                             </div>
                         </div>
                     </CardContent>
-                    <Grid  xs={8}>
+                    <Grid xs={8}>
                         <CardContent>
                             <Typography variant="h6" component="h4">
                                 Hi, I'm a Junior Full Stack Developer.
@@ -72,7 +78,8 @@ class About extends Component {
                                 Australia and seeking to gain more knowledge and experience to widen my skills and be
                                 more.
                             </Typography>
-                            <Button href={pdf} variant="contained" color="primary" target="_blank" style={{marginTop:'12px'}}>See my resume</Button>
+                            <Button href={pdf} variant="contained" color="primary" target="_blank"
+                                    style={{marginTop: '12px'}}>See my resume</Button>
                         </CardContent>
 
                     </Grid>

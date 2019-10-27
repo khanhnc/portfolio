@@ -44,7 +44,7 @@ class Projects extends Component {
                     onClose={this.handleClose}
                     scroll="paper"
                     aria-labelledby="scroll-dialog-title">
-                    <DialogTitle id="scroll-dialog-title">{this.state.job.title}</DialogTitle>
+                    <DialogTitle id="scroll-dialog-title" style={{backgroundColor:'#BDBDBD', color:'#212121'}}>{this.state.job.title}</DialogTitle>
                     <DialogContent dividers={true}>
                         <div><label><strong>Description: </strong> {this.state.job.description}
                         </label></div>
