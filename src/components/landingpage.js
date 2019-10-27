@@ -5,7 +5,7 @@ import Avatar from "@material-ui/core/Avatar";
 class LandingPage extends Component {
     render() {
         return (
-            <Grid className="landing-grid">
+            <Grid >
                 <Grid item xs>
                     <div className="banner-text">
                         <h3>Khanh Nguyen</h3>

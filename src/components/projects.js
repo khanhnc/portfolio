@@ -37,7 +37,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="content">
+            <React.Fragment>
                 <Dialog
                     maxWidth="lg"
                     open={this.state.open}
@@ -77,32 +77,37 @@ class Projects extends Component {
                             : null}
                     </DialogActions>
                 </Dialog>
-
-                <Grid container spacing={3}>
-                    {data.jobs.map((job, key) => {
-                        return (
-                            <Grid item xs={3}>
-                                <Card>
-                                    <CardActionArea onClick={() => this.handleClickOpen(job)}>
-                                        <CardMedia
-                                            component="img"
-                                            alt="logo"
-                                            height="80"
-                                            src={require('../images/' + job.images[0].img)}
-                                            title="logo"/>
-                                        <CardContent>
-                                            <Typography variant="body2" color="textSecondary" component="p">
-                                                {job.title}
-                                            </Typography>
-                                        </CardContent>
-                                    </CardActionArea>
-                                </Card>
-                            </Grid>
-                        );
-                    })
-                    }
-                </Grid>
-            </div>
+                <div className="page-content">
+                    <div className="page-header">
+                        <h3> Projects</h3>
+                    </div>
+                    {/*<Divider variant="middle" style ={{backgroundColor:"white"}}></Divider>*/}
+                    <Grid container spacing={3} className="page-grid">
+                        {data.jobs.map((job, key) => {
+                            return (
+                                <Grid item xs={3}>
+                                    <Card>
+                                        <CardActionArea onClick={() => this.handleClickOpen(job)}>
+                                            <CardMedia
+                                                component="img"
+                                                alt="logo"
+                                                height="140"
+                                                src={require('../images/' + job.images[0].img)}
+                                                title="logo"/>
+                                            <CardContent style={{backgroundColor:'#EEEEEE'}}>
+                                                <Typography variant="body2" color="textSecondary" component="p">
+                                                    {job.title}
+                                                </Typography>
+                                            </CardContent>
+                                        </CardActionArea>
+                                    </Card>
+                                </Grid>
+                            );
+                        })
+                        }
+                    </Grid>
+                </div>
+            </React.Fragment>
         );
     }
 }

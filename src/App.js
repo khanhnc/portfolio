@@ -20,8 +20,13 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import InfoIcon from '@material-ui/icons/Info';
 import ListItemText from "@material-ui/core/ListItemText";
-import Main from "./components/main";
-import clsx from 'clsx';
+
+import {animateScroll as scroll, Element, Link} from 'react-scroll';
+
+
+import LandingPage from "./components/landingpage";
+import Projects from "./components/projects";
+import About from "./components/aboutme";
 
 const drawerWidth = 180;
 
@@ -94,7 +99,6 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-
 const App = (props) => {
     const {container} = props;
     const classesDrawer = useDrawerStyles();
@@ -104,6 +108,10 @@ const App = (props) => {
 
     const handleDrawerOpen = () => {
         setOpen(true);
+    };
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
     };
 
     const handleDrawerClose = () => {
@@ -127,21 +135,22 @@ const App = (props) => {
                             }
                             <Typography variant="h6" className={classes.title}>
                             </Typography>
+
                             {matches ? null : <React.Fragment>
-                                <NavLink to="/" exact className="nav-link" activeClassName="active">
+                                <Link onClick={scrollToTop} className="nav-link" activeClassName="active">
                                     Home
-                                </NavLink>
-
-                                <NavLink to="/projects" exact className="nav-link" activeClassName="active">
+                                </Link>
+                                <Link to="projects" className="nav-link"  activeClassName="active"
+                                      smooth={true} duration={500}>
                                     Projects
-                                </NavLink>
-
-                                <NavLink to="/about" exact className="nav-link" activeClassName="active">
-                                    About Me
-                                </NavLink>
+                                </Link>
+                                <Link to="about" className="nav-link"
+                                      smooth={true} duration={500} activeClassName="active">
+                                    About
+                                </Link>
                             </React.Fragment>
-                            }
 
+                            }
                         </Toolbar>
                     </AppBar>
 
@@ -161,37 +170,38 @@ const App = (props) => {
 
                         <Divider/>
                         <List>
-                            <NavLink to="/" exact activeClassName="active"
-                                     style={{color: 'black', textDecoration: 'none'}}>
+                            <Link onClick={scrollToTop} className="nav-link" activeClassName="active"
 
+                                  style={{color: 'black', textDecoration: 'none'}}>
                                 <ListItem button onClick={handleDrawerClose}>
                                     <ListItemIcon><HomeIcon/></ListItemIcon>
                                     <ListItemText primary="Home"/>
                                 </ListItem>
-                            </NavLink>
-
-                            <NavLink to="/projects" exact activeClassName="active"
-                                     style={{color: 'black', textDecoration: 'none'}}>
+                            </Link>
+                            <Link to="projects" className="nav-link"  activeClassName="active" style={{color: 'black', textDecoration: 'none'}}
+                                  smooth={true} duration={500}>
                                 <ListItem button onClick={handleDrawerClose}>
                                     <ListItemIcon>< ListAltIcon/></ListItemIcon>
                                     <ListItemText primary="Projects"/>
                                 </ListItem>
-                            </NavLink>
-
-                            <NavLink to="/about" exact activeClassName="active"
-                                     style={{color: 'black', textDecoration: 'none'}}>
+                            </Link>
+                            <Link to="about" className="nav-link"  style={{color: 'black', textDecoration: 'none'}}
+                                  smooth={true} duration={500} activeClassName="active">
                                 <ListItem button onClick={handleDrawerClose}>
                                     <ListItemIcon><InfoIcon/></ListItemIcon>
                                     <ListItemText primary="About Me"/>
                                 </ListItem>
-                            </NavLink>
-
+                            </Link>
                         </List>
                     </Drawer>
-                    <Main
-                        className={clsx(classes.content, {
-                            [classes.contentShift]: open,
-                        })}/>
+                    <Element name="home" className="home-element" >
+                        <LandingPage/>
+                    </Element>
+                    <Element name="projects" className="element even-elem" >
+                        <Projects/>
+                    </Element> <Element name="about" className="element not-even-elem" >
+                    <About/>
+                </Element>
                 </div>
             </Router>
         </React.Fragment>
