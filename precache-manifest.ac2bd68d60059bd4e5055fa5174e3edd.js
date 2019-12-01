@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45909972c890688495003b0387f1b202",
+    "revision": "9088a0fadca890ee4a4f1a1a093a0f59",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a3ef828e77732d0011d0",
+    "revision": "493063ca1051c0a81d3e",
     "url": "/portfolio/static/css/main.7e6c0fbb.chunk.css"
   },
   {
-    "revision": "2276160365393c43f218",
-    "url": "/portfolio/static/js/2.03386371.chunk.js"
+    "revision": "4642943017eecfe8e771",
+    "url": "/portfolio/static/js/2.e4ab1983.chunk.js"
   },
   {
-    "revision": "a3ef828e77732d0011d0",
-    "url": "/portfolio/static/js/main.3aeade3e.chunk.js"
+    "revision": "493063ca1051c0a81d3e",
+    "url": "/portfolio/static/js/main.75240901.chunk.js"
   },
   {
     "revision": "1d01becbf82180316dd0",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5d80dc44d920970619afa4160a644d0",
     "url": "/portfolio/static/media/festival4.d5d80dc4.png"
+  },
+  {
+    "revision": "99df22179638efa3ebb7d94bd7b11d76",
+    "url": "/portfolio/static/media/jean.99df2217.png"
   },
   {
     "revision": "34fb9f33bcf9ef509893dc21f3aa1723",
