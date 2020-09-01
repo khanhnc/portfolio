@@ -1,6 +1,5 @@
 html, body, #root {
     margin: auto;
-    height: 100%;
 }
 
 .header-color {
@@ -11,25 +10,11 @@ html, body, #root {
     width: 100%;
 }
 
-.home-element {
-    height: 80vh;
-}
-
-.element {
-    height: 85vh;
-}
-
 .even-elem {
     background-color: #F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center
-}
-
-.test-main {
-    height: 100%;
-    width: 90%;
-    margin: auto;
 }
 
 .avatar-img {
@@ -38,12 +23,6 @@ html, body, #root {
 }
 
 .banner-text {
-    /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; !* IE 8 *!*/
-    /*filter: alpha(opacity=50); !* IE 5-7 *!*/
-    /*-moz-opacity: 0.9; !* Netscape *!*/
-    /*-khtml-opacity: 0.9; !* Safari 1.x *!*/
-    /*opacity: 0.9; !* Good browsers *!*/
-
     width: 75%;
     border-radius: 10px;
     margin: auto;

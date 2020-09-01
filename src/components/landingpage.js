@@ -8,8 +8,8 @@ class LandingPage extends Component {
                 <Grid item xs>
                     <div className="banner-text">
                         <h3>Khanh Nguyen</h3>
-                        <p className="languages">HTML/CSS | Typescript | JavaScript | Angular | React | Spring
-                            Framwork</p>
+                        <p className="languages"> Typescript | JavaScript | Angular | React | HTML/CSS | Spring
+                            Framwork </p>
                         <div className="banner-link">
                             <a href="https://www.linkedin.com/in/khanh-nguyen-42376b151/" title="Linkin">
                                 <i className="fa fa-linkedin fa-2x customIcon"></i>
@@ -17,10 +17,6 @@ class LandingPage extends Component {
 
                             <a href="https://github.com/khanhnc" title="git">
                                 <i className="fa fa-github fa-2x customIcon"></i>
-                            </a>
-
-                            <a href="https://www.facebook.com/khanhnc46" title="fb">
-                                <i className="fa fa-facebook fa-2x customIcon"></i>
                             </a>
 
                         </div>
