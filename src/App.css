@@ -1,74 +1,77 @@
 html, body, #root {
     margin: auto;
-}
-
-.header-color {
-    background-color: #212121;
-}
-
-.landing-content {
     width: 100%;
+    color: white;
+    background: #1a237e;
 }
 
-.even-elem {
-    background-color: #F5F5F5;
+.content-wrapper {
+    width: 80%;
     display: flex;
-    align-items: center;
-    justify-content: center
+    margin:auto;
+    flex-direction: row;
 }
 
-.avatar-img {
-    height: 250px;
-    padding-top: 5em;
+.col{
+    width:100%;
+    padding:0 10px 0 10px ;
 }
 
-.banner-text {
-    width: 75%;
-    border-radius: 10px;
-    margin: auto;
-    margin-top: 10%;
+.col-left{
+    text-align: center;
 }
 
-.landing-grid {
-    padding-top: 5%;
+.home-content {
+    padding: 5% 0 5% 0;
 }
 
-.customIcon {
-    color: white;
-    background: black;
-    padding: 10px;
-    border-radius: 10%;
+.avatar {
+    vertical-align: middle;
+    width: 300px;
+    border-radius: 50%;
+}
+.info{
+    padding:20px 0 0 0 ;
 }
 
-.customIconXs {
-    color: white;
-    background: #303f9f;
-    padding: 5px;
-    border-radius: 10%;
+h1,h2,h3,h4,p{
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
-.banner-link a {
-    margin-right: 2em;
+.info-links{
+    padding:10px 0 0 0 ;
 }
 
-.banner-link-about a {
-    margin: .25em;
+.info-links a {
+    margin: 10px;
 }
 
-a.active {
-    color: orangered !important;
+.custom-icon {
+    color:white;
 }
 
-.banner-link-about {
-    padding-top: .25em;
+.intro-text {
+    font-size: 14px;
 }
 
-.banner-text p {
-    margin: .5em 0 .5em 0;
+.page-line {
+    display: none;
+    width: 80%;
+    border-top: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px 0;
 }
 
-.banner-text h3 {
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0 !important;
-}
+@media only screen and (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+        padding: 10% 0 10% 0;
+    }
+
+    .page-line {
+        display: block;
+    }
+  }
